@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Excel Table</title>
+	<style>
+		table {
+			background-color: blue;
+			color: white;
+			border-collapse: collapse;
+			width: 100%;
+		}
+		
+		table td, table th {
+			padding: 8px;
+			border: 1px solid white;
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<table>
+		{{ table | safe }}
+	</table>
+</body>
+</html>
